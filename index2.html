@@ -45,12 +45,12 @@
   
   // Make an AJAX call to Google Script
   function insert_value() {
-    
+    /*
 	$("#re").css("visibility","hidden");
 	 document.getElementById("loader").style.visibility = "visible";
 	$('#mySpinner').addClass('spinner');
- 
-var id1=	$("#id").val();
+ */
+       var id1=	$("#id").val();
 	var name= $("#name").val();
 	
 	
@@ -73,9 +73,10 @@ var id1=	$("#id").val();
   
   
   function update_value(){
+	  /*
 	$("#re").css("visibility","hidden");
      document.getElementById("loader").style.visibility = "visible";
-	
+	*/
 	
 var id1=	$("#id").val();
 	var name= $("#name").val();
@@ -100,9 +101,10 @@ var id1=	$("#id").val();
   
   
   function delete_value(){
+	  /*
 	$("#re").css("visibility","hidden");
      document.getElementById("loader").style.visibility = "visible";
-	$('#mySpinner').addClass('spinner');
+	$('#mySpinner').addClass('spinner');*/
 var id1=	$("#id").val();
 	var name= $("#name").val();
 	
@@ -202,8 +204,8 @@ Name
 <input type = "text" name ="name" id="name">
  
 </form>
- 
-<div id="loader"></div>
+ <!--
+<div id="loader"></div>-->
  
 <p id="re"></p>
  
